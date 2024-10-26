@@ -1,1 +1,1 @@
-This is a repositiry I practice Berkeley content with PyTorch.
+This is a repositiry in which I practice Berkeley content with PyTorch.
