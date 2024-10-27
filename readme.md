@@ -8,11 +8,8 @@ This repository contains code implementations, notes, and additional resources f
 
 The directories are organized as follows:
 
-### Introduction to Deep Learning (lectures 1, 2, 3)
-Covers the fundamentals of deep learning, including neural network architectures, training methodologies, and basic optimization techniques.
-
-### Introduction to Pretraining and Augmentation (Lecture 4)
-Explores the importance of pretraining and data augmentation in improving model performance, with practical examples of commonly used techniques.
+### Introduction to Deep Learning (lectures 1, 2, 3, 4)
+Covers the fundamentals of deep learning, including neural network architectures, training methodologies, and basic optimization techniques. Explores the importance of pretraining and data augmentation in improving model performance, with practical examples of commonly used techniques.
 ### Computer Vision
 Provides an overview of essential computer vision concepts, including image classification, convolutional networks, and feature extraction.
 ### Object Detection
