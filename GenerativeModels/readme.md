@@ -8,7 +8,7 @@ This repository contains code implementations for topics covered in Lectures 9, 
 The directory is organized by topic as follows:
 
 ### **1- Variational Autoencoders (VAEs)**
-Code implementation of VAEs, including network architecture, loss function, and training loop.
+Code implementation of Autoencoder and VAEs, including network architecture, loss function, and training loop.
 Example applications and reconstructions.
 
 ### **2- Generative Adversarial Networks (GANs)**
@@ -16,7 +16,7 @@ Basic GAN implementation, covering generator and discriminator design.
 Code for training GANs with sample outputs for various data distributions.
 
 ### **3- Advanced GANs**
-Implementation of advanced GAN techniques such as Wasserstein GAN (WGAN) and WGAN-GP.
+Implementation of advanced GAN techniques such as style GAN and Cycle GAN.
 Code to experiment with different loss functions and architectures.
 
 ### **4- Diffusion Models**
