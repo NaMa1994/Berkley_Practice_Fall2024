@@ -1,6 +1,7 @@
 # Modern Computer Vision: Generative Models Topics
 
-This repository contains code implementations for topics covered in Lectures 9, 10, 11, and 12 of the Berkeley Modern Computer Vision Course. These lectures focus on advanced concepts in computer vision, including Variational Autoencoders (VAEs), Generative Adversarial Networks (GANs), Advanced GAN techniques, and Diffusion Models.
+This repository contains code implementations for topics covered in Lectures 9, 10, 11, and 12 of the [Berkeley Modern Computer Vision Course](https://www.youtube.com/watch?v=687zEGODmHA&list=PLzWRmD0Vi2KVsrCqA4VnztE4t71KnTnP5&index=12) on YouTube.
+. These lectures focus on advanced concepts in computer vision, including Variational Autoencoders (VAEs), Generative Adversarial Networks (GANs), Advanced GAN techniques, and Diffusion Models.
 
 ## **Contents:**
 
@@ -34,4 +35,5 @@ To run the code in this directory, you'll need the following Python libraries:
 
 ## **About the Course:**
 
-This code is based on content from the Berkeley Modern Computer Vision Course. For a deeper understanding of each concept and theoretical background, check out the full lecture series here on YouTube.
+This code is based on content from the Berkeley Modern Computer Vision Course. For a deeper understanding of each concept and theoretical background, check out the full lecture series [here](https://www.youtube.com/watch?v=687zEGODmHA&list=PLzWRmD0Vi2KVsrCqA4VnztE4t71KnTnP5&index=12) on YouTube.
+ on YouTube.
