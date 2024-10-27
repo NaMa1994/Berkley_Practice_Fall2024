@@ -1,3 +1,5 @@
+
+
 # **Berkeley Modern Computer Vision Course: Full Repository**
 
 This repository contains code implementations, notes, and additional resources for the Berkeley Modern Computer Vision Course. The course offers a comprehensive dive into foundational and advanced topics in computer vision, deep learning, and generative models. Each directory corresponds to a specific set of lectures and topics covered throughout the course.
