@@ -8,7 +8,7 @@ This repository contains code implementations, notes, and additional resources f
 
 The directories are organized as follows:
 
-### Introduction to Deep Learning(lectures 1, 2, 3)
+### Introduction to Deep Learning (lectures 1, 2, 3)
 Covers the fundamentals of deep learning, including neural network architectures, training methodologies, and basic optimization techniques.
 
 ### Introduction to Pretraining and Augmentation (Lecture 4)
