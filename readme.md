@@ -1,39 +1,26 @@
-# Modern Computer Vision: Generative Models Topics
+# **Berkeley Modern Computer Vision Course: Full Repository**
 
-This repository contains code implementations for topics covered in Lectures 9, 10, 11, and 12 of the [Berkeley Modern Computer Vision Course](https://www.youtube.com/watch?v=687zEGODmHA&list=PLzWRmD0Vi2KVsrCqA4VnztE4t71KnTnP5&index=12) on YouTube.
-. These lectures focus on advanced concepts in computer vision, including Variational Autoencoders (VAEs), Generative Adversarial Networks (GANs), Advanced GAN techniques, and Diffusion Models.
+This repository contains code implementations, notes, and additional resources for the Berkeley Modern Computer Vision Course. The course offers a comprehensive dive into foundational and advanced topics in computer vision, deep learning, and generative models. Each directory corresponds to a specific set of lectures and topics covered throughout the course.
 
-## **Contents:**
+## Course Content Overview:
 
-The directory is organized by topic as follows:
+The directories are organized as follows:
 
-### **1- Variational Autoencoders (VAEs)**
-Code implementation of VAEs, including network architecture, loss function, and training loop.
-Example applications and reconstructions.
+### Introduction to Deep Learning
+Covers the fundamentals of deep learning, including neural network architectures, training methodologies, and basic optimization techniques.
 
-### **2- Generative Adversarial Networks (GANs)**
-Basic GAN implementation, covering generator and discriminator design.
-Code for training GANs with sample outputs for various data distributions.
+### Introduction to Pretraining and Augmentation
+Explores the importance of pretraining and data augmentation in improving model performance, with practical examples of commonly used techniques.
+### Computer Vision
+Provides an overview of essential computer vision concepts, including image classification, convolutional networks, and feature extraction.
+### Object Detection
+Focuses on object detection models and techniques, covering popular architectures such as YOLO and Faster R-CNN for detecting objects within images.
+### Semantic Segmentation
+Delves into semantic segmentation methods, such as U-Net and FCN, to classify each pixel in an image into predefined categories.
+### Generative Models
+Discusses advanced generative models, including Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs), with code to illustrate key concepts.
+### Sequence Modeling
+Covers sequence modeling and recurrent architectures, including LSTMs and Transformers, and their applications in vision and sequence data processing.
+Resources
 
-### **3- Advanced GANs**
-Implementation of advanced GAN techniques such as Wasserstein GAN (WGAN) and WGAN-GP.
-Code to experiment with different loss functions and architectures.
-
-### **4- Diffusion Models**
-Introduction to diffusion-based models for image generation.
-Code demonstrating the forward and reverse diffusion process and training of a basic diffusion model.
-
-## **Prerequisites:**
-
-To run the code in this directory, you'll need the following Python libraries:
-
-* torch
-* torchvision
-* numpy
-* matplotlib
-
-
-## **About the Course:**
-
-This code is based on content from the Berkeley Modern Computer Vision Course. For a deeper understanding of each concept and theoretical background, check out the full lecture series [here](https://www.youtube.com/watch?v=687zEGODmHA&list=PLzWRmD0Vi2KVsrCqA4VnztE4t71KnTnP5&index=12) on YouTube.
- on YouTube.
+For a complete course experience, check out the Berkeley Modern Computer Vision Course on YouTube, where each topic is explained in depth. Each directory in this repository aligns with the lecture material, providing hands-on code and practical examples.
