@@ -33,6 +33,6 @@ This model has been trained on ["CIFAR10"](https://huggingface.co/datasets/uoft-
 * label: 0-9 with the following correspondence 0 airplane 1 automobile 2 bird 3 cat 4 deer 5 dog 6 frog 7 horse 8 ship 9 truck
 
 # My Dataset:
-I am trying to fintune it on (Indina food dataset"}(https://huggingface.co/datasets/rajistics/indian_food_images). Whic has two fields and 5.33k rows on train and 941 rows on test.
+I am trying to fintune it on ("indian_food_images"}(https://huggingface.co/datasets/rajistics/indian_food_images). Whic has two fields and 5.33k rows on train and 941 rows on test.
 
 
