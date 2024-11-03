@@ -28,6 +28,11 @@ To reconstruct the masked regions, SimMIM uses a linear layer that directly regr
 ### 3. Minimizing Complexity for Efficient Training:
 SimMIM’s design is intentionally simple, avoiding complex architectural modifications or heavy reconstruction heads. This simplicity reduces computational overhead and allows for more efficient and fast training. By focusing on direct pixel regression with minimal additional processing, SimMIM maintains a lightweight and scalable approach to masked image modeling.
 
+# Dataset
+This model has been trained on ["CIFAR10"](https://huggingface.co/datasets/uoft-cs/cifar10).The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class, which has two columns(image and label) and 50k rows in training and 10k rows for testing. The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class.
+* label: 0-9 with the following correspondence 0 airplane 1 automobile 2 bird 3 cat 4 deer 5 dog 6 frog 7 horse 8 ship 9 truck
 
+# My Dataset:
+I am trying to fintune it on (Indina food dataset"}(https://huggingface.co/datasets/rajistics/indian_food_images). Whic has two fields and 5.33k rows on train and 941 rows on test.
 
 
