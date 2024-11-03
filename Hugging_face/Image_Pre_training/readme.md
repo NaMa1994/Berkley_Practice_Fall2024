@@ -9,6 +9,9 @@ I created this setup to explore and experiment with image pretraining techniques
 
 
 # SimMIM
+By Zhenda Xie*, Zheng Zhang*, Yue Cao*, Yutong Lin, Jianmin Bao, Zhuliang Yao, Qi Dai and Han Hu*.
+
+This repo is the official implementation of ["SimMIM: A Simple Framework for Masked Image Modeling"](https://arxiv.org/abs/2111.09886).
 
 ![Alt text for image](SimMIM.jpeg)
 This paper propsed a simple design for Masked Image Modeling.
@@ -17,12 +20,12 @@ While in NLP experts applied SSL techniques on huge amount of data and they came
 * Visual signals are raw and low-level, while topken are human generated and high level in terms of concepts.
 * Visual signals are continous, while text tokens are discrete.
 
-# Steps of SimMIM:
-## 1. Random Masking of Input Image:
+## Steps of SimMIM:
+### 1. Random Masking of Input Image:
 SimMIM applies a random masking strategy where parts of the input image are masked out, hiding specific regions from the model. A moderately large patch size is chosen for masking; for example, a patch size of 32x32 pixels(supports masked ration 10%-70%), as mentioned in the paper, while for path size of 8 the masked ratio should be as high as 80%. This masking helps the model learn to predict the missing parts, focusing on understanding and reconstructing image structure from context.
-## 2. Linear Layer Regression to Raw Pixel Values:
+### 2. Linear Layer Regression to Raw Pixel Values:
 To reconstruct the masked regions, SimMIM uses a linear layer that directly regresses the RGB pixel values of the masked patches. This regression task encourages the model to predict exact color values, allowing it to learn fine-grained details in addition to high-level features. The training objective is based on L1 loss, which measures the difference between predicted and actual pixel values, helping the model focus on accurate reconstruction.
-## 3. Minimizing Complexity for Efficient Training:
+### 3. Minimizing Complexity for Efficient Training:
 SimMIM’s design is intentionally simple, avoiding complex architectural modifications or heavy reconstruction heads. This simplicity reduces computational overhead and allows for more efficient and fast training. By focusing on direct pixel regression with minimal additional processing, SimMIM maintains a lightweight and scalable approach to masked image modeling.
 
 
