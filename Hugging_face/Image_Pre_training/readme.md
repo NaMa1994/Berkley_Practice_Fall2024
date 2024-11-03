@@ -34,5 +34,6 @@ This model has been trained on ["CIFAR10"](https://huggingface.co/datasets/uoft-
 
 # My Dataset:
 I am trying to fintune it on ("indian_food_images"}(https://huggingface.co/datasets/rajistics/indian_food_images). Whic has two fields and 5.33k rows on train and 941 rows on test.
+![Alt text for image](-SimMIM-MyDataset_info.png)
 
 
