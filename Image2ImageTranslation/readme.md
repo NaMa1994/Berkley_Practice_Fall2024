@@ -1,12 +1,12 @@
 # Lec20:Image to Image Translation
 ## Table of Contents
 
-- [Neural Style Transfer](#introduction)
-- [StyleGAN](#how-it-works)
-- [Pix2Pix](#neural-style-transfer-in-detail)
-- [CycleGAN](#other-image-to-image-translation-techniques)
-- [StarGAN](#installation)
-- [BicycleGAN](#usage)
+1. [Neural Style Transfer: A Neural Algorithm of Artistic Style](#neural-style-transfer-a-neural-algorithm-of-artistic-style)
+2. [StyleGAN](#stylegan)
+3. [Pix2Pix](#pix2pix)
+4. [CycleGAN](#cyclegan)
+5. [StarGAN](#stargan)
+6. [BicycleGAN](#bicyclegan)
 
 
 ## 1-Neural Style Transfer: A Neural Algorithm of Artistic Style
