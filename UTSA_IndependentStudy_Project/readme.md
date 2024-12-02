@@ -1,45 +1,51 @@
-# FocusMAE: Gallbladder Cancer Detection from Ultrasound Videos with Focused Masked Autoencoders
+# LearnableRegions: Text-Driven Image Editing via Learnable Regions
 
-This repository contains the term project **FocusMAE**, which implements a novel approach to gallbladder cancer detection from ultrasound videos using Focused Masked Autoencoders. The project was supervised by **Professor Paul Rad**.
+This repository contains the term project **LearnableRegions**, which implements a novel approach to text-driven image editing using Learnable Regions. The project was supervised by **Professor Paul Rad**.
 
 ## Paper
 For a detailed understanding of the methodology and findings, please refer to the original paper:  
-**[FocusMAE: Gallbladder Cancer Detection from Ultrasound Videos with Focused Masked Autoencoders](https://arxiv.org/abs/2403.08848)**
-This paper highlights the growing interest in automated Gallbladder Cancer (GBC) detection and the limitations of current state-of-the-art methods using ultrasound (US) images, which struggle with generalization. The study shifts focus from image-based to video-based GBC detection, utilizing spatiotemporal representations for better results. It introduces FocusMAE, a novel Masked Autoencoder design that emphasizes high-information regions for refined cancer detection. The authors also present the largest US video dataset for GBC detection, achieving a new state-of-the-art accuracy of 96.4%, outperforming existing image-based and video-based methods. Additionally, the approach demonstrates broader applicability by improving accuracy on a public CT-based COVID-19 detection dataset.
+**[Text-Driven Image Editing via Learnable Regions](https://arxiv.org/pdf/2311.16432)**  
+This paper introduces Learnable Regions, a new method for text-driven image editing that doesn't require user-provided masks or sketches. Instead, it uses a pre-trained text-to-image model and a region generation network to identify areas in the image that match the given text prompt. This approach enables localized and precise edits directly guided by the text.
+
+The method can handle complex prompts, including descriptions with multiple objects or detailed sentences. It uses a combination of loss functions to ensure the edits are realistic, align well with the text, and maintain the original structure of the image. Experiments show that this method produces high-quality and accurate edits, performing as well as or better than existing approaches.
 
 ## Repository
-The source code for this project is available on GitHub:  
-[https://github.com/sbasu276/FocusMAE](https://github.com/sbasu276/FocusMAE)
+The source code for this project is available here:  
+[Learnable Regions - Project Page](https://yuanze-lin.me/LearnableRegions_page/)
 
 ## Objectives
-1. **Learn the Approach**: Familiarize yourself with the paper to understand the problem, methodology, and contributions.
-2. **Understand the Code**: Study the implementation provided in the repository to understand how the Focused Masked Autoencoders are applied to the dataset.
-3. **Reproduce Results**: Use the codebase to replicate the results presented in the paper.
+1. **Learn the Approach**: Read the paper to understand the problem, methodology, and contributions of Learnable Regions.
+2. **Understand the Code**: Study the implementation provided in the repository to comprehend how Learnable Regions are applied to text-driven image editing tasks.
+3. **Reproduce Results**: Use the provided codebase to replicate the results presented in the paper.
 
 ## Prerequisites
-Before you begin, ensure you have the following:
-- A working Python environment (Python 3.7 or later recommended)
-- Required libraries and dependencies as mentioned in the repository's `requirements.txt`
-- Access to the dataset used in the study (refer to the paper for more details)
+Before starting, ensure the following:
+- A working Python environment (Python 3.7 or later recommended).
+- Required libraries and dependencies (refer to the instructions on the project page for installation details).
+- Access to the datasets used in the study (check the paper for more details).
 
 ## Steps to Get Started
-1. Clone the repository:
+1. Clone the repository or download the code:
    ```bash
-   git clone https://github.com/sbasu276/FocusMAE.git
-   cd FocusMAE
+   git clone https://github.com/<repository-link>.git
+   cd LearnableRegions
    ```
-2.Install the dependencies:
-  ```bash
-  pip install -r requirements.txt
-  ```
-3. Read the paper to understand the context and the methodology.
-4. Follow the instructions in the repository to reproduce the results:
-  ** Prepare the dataset
-  ** Train the model
-  ** Evaluate the performance
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Familiarize yourself with the paper to understand the proposed methodology.
+   - Follow the instructions provided in the repository to:
+   - Prepare the dataset.
+   - Train the model.
+   - Evaluate the model performance and reproduce the results.
+## Contribution Highlights
 
+The Learnable Regions framework has several notable contributions:
+
+A novel region-specific learning paradigm for image editing guided by textual descriptions.
+State-of-the-art performance across various tasks, demonstrating both flexibility and precision in image editing.
+Robust generalization to a variety of datasets and use cases.
 ## Acknowledgments
 
 This project was completed under the supervision of Professor Paul Rad as part of the term project requirements.
-
-
